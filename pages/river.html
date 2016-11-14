@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Environmental Consequences -- The River</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../main.css"/>
+  </head>
+  <body>
+    <p>You are a journalist reporting on dumping into the river.
+      You are highly respected and your story will have a severe impact.
+      You also can take a bribe from the company you are reporting on.
+      The contents being dumped are not highly toxic.</p>
+    <p>What do you want to do</p>
+    <button onclick="changeSociety('2');changeEconomy('-2');changeEnvironment('1')"><a href="runoff.html">Publish the story</a></button>
+    <button onclick="changeEnvironment('-1')"><a href="runoff.html">Take the bribe from the company</a></button>
+    <button onclick="changeEnvironment('3');changeSociety('-1')"><a href="runoff.html">Threaten the factory owner to change his policies or you will publish the story</a></button>
+  </body>
+  <footer>
+      <script src="../main.js"></script>
+  </footer>
+</html>
